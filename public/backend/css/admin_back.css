@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    font-size: 16px;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #193251;
+}
+div .khung-header{
+    width: 1000px;
+    height: 80px;
+    margin: 0px auto;
+}
+div .khung-header h2{
+    color: white;
+    line-height: 80px;
+    float: left;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #193251;
+    margin: 0px auto;
+}
+#content{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+#all-content{
+    width: 1000px;
+    height: 1000px;
+    margin: 15px auto;
+}
+div .all-cont-left{
+    width: 300px;
+    height: 1000px;
+    float: left;
+    background-color: #f1f1f1;
+}
+div .con-l-menu-top{
+    width: 300px;
+    height: 30px;
+    background-color: #193251;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div .con-l-menu-top h5{
+    color: white;
+    line-height: 30px;
+}
+div .con-l-menu-bottom{
+    width: 280px;
+    margin-left: 10px;
+}
+div .con-l-menu-bottom ul{
+    list-style: none;
+}
+div .con-l-menu-bottom ul li{
+    width: 280px;
+    height: 28px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid #CCC;
+    text-align: center;
+}
+div .con-l-menu-bottom ul li a{
+    text-decoration: none;
+}
+div .con-l-menu-bottom ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+div .all-cont-right{
+    width: 680px;
+    height: 1000px;
+    float: left;
+    margin-left: 20px;
+    background-color: #f1f1f1;
+}
+div .all-cont-right h5{
+    text-align: center;
+    padding-top: 5px;
+    color: brown;
+}
+div .cont-ri-content{
+    width: 680px;
+    height: auto;
+    margin-top: 30px;
+}
+div .cont-ri-content ul{
+    list-style: none;
+}
+div .cont-ri-content ul li{
+    width: 155px;
+    height: 80px;
+    float: left;
+    margin: 0px 10px 20px 5px;
+    background-color: white;
+    box-shadow: 0px 0px 2px #CCC;
+    font-size: 14px;
+    color: #4F5155;
+}
+div .cont-ri-content ul li img{
+    display: inline;
+    float: left;
+    margin: 2px 10px 0px 7px;
+}
+div .cont-ri-content ul li a{
+    color: crimson;
+}
+div .cont-ri-content ul li:nth-child(4n+4){
+    margin-right: 0px;
+}
+div .cont-ri-content ul li:nth-child(4n+1){
+    margin-left: 7px;
+}
+#all-ql-sp{
+    width: 1000px;
+    height: 1000px;
+    margin: 30px auto;
+}
+div .add-sanpham{
+    width: 1000px;
+    height: 1200px;
+    margin: 30px auto;
+    background-color: #f1f1f1;
+    box-shadow: 5px 5px 5px #CCC;
+}
+div .s-p-add{
+    width: 1000px;
+    height: auto;
+    margin-top: 20px;
+}
+div .s-p-add fieldset{
+    width: 980px;
+    margin-left: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+div .s-p-add fieldset legend{
+    font-weight: bold;
+    color: brown;
+}
+div .s-p-add fieldset form{
+    margin-top: 10px;
+}
+tr{
+    height: 30px;
+}
+tr td input,select{
+    height: 28px !important;
+    padding-left: 5px;
+    margin-top: 17px;
+}
+div #cke_1_contents{
+    height: 500px !important;
+}

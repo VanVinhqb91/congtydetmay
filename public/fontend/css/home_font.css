@@ -1,0 +1,550 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    font-size: 16px;
+}
+/* ------------------------------- CSS HEADER ------------------------------------ */
+#header{
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+}
+.header-logo{
+    width: 100%;
+    height: 70px;
+    background-color: #324B6A;
+}
+.header-logo .h-logo-all{
+    width: 1000px;
+    margin: 0px auto;
+}
+.header-logo .h-logo-all a{
+    text-decoration: none;
+}
+.header-logo .h-logo-all a > h1{
+    color: #DCEDE5;
+    line-height: 70px;
+    font-size: 24px;
+}
+.header-menu{
+    background: url(../../../uploads/images/h-menu.jpg) repeat-x scroll left center transparent;
+    width: 100%;
+    height: 45px;
+    margin-top: -2px;
+}
+.header-menu div.h-menu{
+    height: 40px;
+    width: 1000px;
+    margin: 0px auto;
+} 
+.h-menu ul{
+    list-style: none;
+}
+.h-menu ul li{
+    line-height: 40px;
+    float: left;
+    padding: 0px 15px;
+    margin-top: 3px;
+}
+.active{
+    background-color: cornflowerblue;
+}
+.active-menu{
+    background-color: cornflowerblue;
+}
+.h-menu ul li:hover{
+    background-color: cornflowerblue;
+}
+.h-menu ul li:first-child{
+    border-left: 0px solid white;
+}
+.h-menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* ------------------------------ END CSS HEADER --------------------------------- */
+
+/* -------------------------------- CSS MAIN ------------------------------------ */
+#main{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 3px !important;
+}
+#main .main-top{
+    width: 100%;
+    height: 340px;
+    margin: 0px auto;
+    background-color: #CCC;
+}
+.main-top .top-all{
+    width: 1000px;
+    height: 370px;
+    margin: 0px auto;
+}
+div .main-top .main-slide{
+    width: 1000px;
+    height: 370px;
+    float: left;
+    margin-top: 4px;
+}
+#bong-slider-top{
+    width: 100%;
+    height: 30px;
+    background: url(../../../uploads/images/bg_bong-slider.jpg) no-repeat scroll center top transparent;
+}
+/* --------------------------- MAIN INTRODUCTION ------------------------- */
+.main-introduct{
+    width: 980px;
+    margin: 80px auto 15px auto;
+    border: 1px solid #CCC;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #CCC;
+}
+.main-introduct .introduct-top{
+    width: 980px;
+    height: 315px;
+    margin: 0px auto;
+    font-size: 15px;
+}
+.main-introduct .introduct-center{
+    width: 980px;
+    height: 300px;
+    margin: 0px auto;
+}
+.main-introduct .introduct-bottom{
+    width: 980px;
+    height: 200px;
+    margin: 70px auto 10px auto;
+}
+.i-top-left{
+    width: 65%;
+    float: left;
+    height: 300px;
+    border-right: 1px solid #CCC;
+}
+.i-top-left h1{
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 7px;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000;
+    font-weight: bold;
+    height: 25px;
+    text-transform: uppercase;
+    font-family: "UVNBaiSau_R";
+}
+span .h1-itop{
+    padding-top: 5px;
+    padding-bottom: 13px;
+    border-bottom: 3px solid #000;
+}
+.itop-img{
+    float: left;
+}
+.i-top-left a img{
+    width: 250px;
+    height: 200px;
+    margin: 10px 10px 0px 0px;
+}
+p .itop-content{
+    font-size: 15px;
+}
+#bong-introduct-top{
+    width: 98%;
+    margin: 20px auto;
+    height: 13px;
+    background: url(../../../uploads/images/bong-introduct-top.jpg) no-repeat scroll center top transparent;
+}
+#bong-introduct-center{
+    width: 98%;
+    margin: -40px auto;
+    height: 13px;
+    background: url(../../../uploads/images/bong-introduct-top.jpg) no-repeat scroll center top transparent;
+}
+.i-top-right iframe{
+    margin-left: 15px;
+}
+div .introduct-center h3{
+    font-size: 15px;
+}
+/* --------------------------- CSS FOOTER ----------------------------- */
+#footer{
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    background-color: #324D6B;
+    border-top: 5px solid #193251;
+    border-bottom: 10px solid #193251;
+}
+.footer-address{
+    width: 1000px;
+    margin: 0px auto;
+    color: white;
+    font-size: 16px;
+}
+div .footer-address h3{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+div .introduct-bottom h3{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/****************************** CSS INTRODUCT_VIEW ****************************************/
+div .intro-top{
+    width: 100%;
+    height: 270px;
+    margin: 0px auto;
+    background-color: #CCC;
+    margin-bottom: 80px;
+}
+div .intro-top .i-top-content{
+    width: 1000px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: white;
+}
+#bong-slider{
+    width: 98%;
+    margin: 15px auto;
+    height: 13px;
+    background: url(../../../uploads/images/bong-introduct-top.jpg) no-repeat scroll center top transparent;
+}
+div .intro-center{
+    width: 1000px;
+    margin: 10px auto;
+    height: 800px;
+}
+.itro-cen-left{
+    width: 265px;
+    height: 800px;
+    float: left;
+    background-color: #f1f1f1;
+}
+.itro-cen-right{
+    width: 720px;
+    height: 800px;
+    float: left;
+    margin-left: 15px;
+    background-color: white;
+}
+.itro-cen-left .cen-left-top{
+    width: 265px;
+    height: 30px;
+    background-color: #324B6A;
+    border-bottom: 5px solid #193251;
+    text-align: center;
+}
+.itro-cen-left .cen-left-top h4{
+    line-height: 30px;
+    color: white;
+}
+.itro-cen-right .cen-right-url{
+    width: 720px;
+    height: 30px;
+    border-bottom: 1px solid #CCC;
+}
+div .r-ul-content{
+    width: 100%;
+    height: auto;
+}
+div .r-ul-content img{
+    float: left;
+    padding-right: 10px;
+}
+div .ul-content-right{
+    margin-left: 10px;
+    font-size: 15px;
+}
+div .ul-content-right p{
+    text-align: justify;
+}
+div .itro-cen-left ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+div .itro-cen-left ul li{
+    height: 30px;
+    padding-left: 10px;
+}
+div .all-new{
+    width: 720px;
+    height: 250px;
+    border-bottom: 1px solid #CCC;
+}
+div .all-new p{
+    display: block;
+}
+div .all-new img{
+    float: left;
+    width: 200px;
+    height: 120px;
+    padding-right: 10px;
+}
+div .new-rigt p{
+    text-align: justify;
+}
+div .l-a-content fieldset{
+    width: 720px;
+    height: auto;
+    margin-top: 20px;
+}
+div .l-a-content fieldset form table tr td{
+    padding-left: 10px;
+    line-height: 35px;
+}
+div .live-chat{
+    width: 230px;
+    height: 31px;
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    z-index: 99;
+}
+div .live-chat #vchat{
+    cursor: pointer;
+}
+div .form-vchat{
+    width: 300px;
+    height: 350px;
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    background-color: #299796;
+    z-index: 9999;
+}
+div .form-vchat .f-vchat-top{
+    width: 300px;
+    height: 35px;
+}
+div .form-vchat .f-vchat-top:hover{
+    cursor: pointer;
+}
+div .form-vchat .f-vchat-top h5{
+    display: inline;
+    padding-left: 10px;
+    line-height: 35px;
+    float: left;
+}
+div .form-vchat .f-vchat-top img{
+    float: right;
+    margin-right: 10px;
+}
+div .vchat-content{
+    width: 290px;
+    height: 309px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 7px;
+}
+div .vchat-content p{
+    padding-left: 5px;
+    font-size: 15px;
+    padding-top: 15px;
+    color: black;
+}
+div .vchat-content form{
+    width: 280px;
+    margin-left: 5px;
+}
+div .vchat-content form input{
+    display: block;
+    height: 28px;
+    margin-top: 8px;
+    padding-left: 5px;
+}
+div .vchat-content form textarea{
+    margin-top: 8px;
+    padding-left: 5px;
+}
+div .vchat-content form input[type=submit]{
+    width: 280px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    background-color: #299796;
+}
+/******************************** LIST SẢN PHẨM *****************************************/
+div .list-sp{
+    width: 720px;
+    height: auto;
+    margin: 0px auto;
+}
+div .l-sp-top{
+    display: inline;
+    width: 40%;
+    border-bottom: 2px solid #CCC;
+}
+div .l-sp-bottom{
+    width: 720px;
+    height: auto;
+    margin-top: 20px;
+}
+div .l-sp-bottom ul{
+    list-style: none;
+}
+div .l-sp-bottom ul li{
+    width: 224px;
+    height: 200px;
+    float: left;
+    margin-left: 21px;
+    margin-top: 20px;
+    border: 1px solid #CCC;
+}
+div .l-sp-bottom ul li:hover{
+    -moz-box-shadow:0px 0px 10px #999;
+    -webkit-box-shadow:0px 0px 10px #999;
+    box-shadow:0px 0px 10px #999;
+}
+div .l-sp-bottom ul li:nth-child(3n+1){
+    margin-left: 0px !important;
+}
+div .l-sp-bottom ul li img{
+    width: 214px;
+    height: 140px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border: 1px solid #CCC;
+}
+div .l-sp-bottom ul li a,p{
+    padding-left: 5px;
+    text-decoration: none;
+}
+/****************************** CHI TIẾT SẢN PHẨM ****************************************/
+#all-chitiet-sp{
+    width: 1000px;
+    height: auto;
+    margin: 10px auto;
+    margin-bottom: 3000px;
+}
+div .ct-sp-content{
+    width: 1000px;
+    height: auto;
+    margin: 20px auto;
+}
+div .ct-sp-content .ct-sp-cont-left{
+    width: 350px;
+    height: 1000px;
+    background-color: #f1f1f1;
+    float: left;
+}
+div .ct-sp-content .ct-sp-cont-left img{
+    width: 340px;
+    height: 340px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+div .ct-sp-content .ct-sp-cont-right{
+    width: 630px;
+    height: 1000px;
+    background-color: #f1f1f1;
+    float: right;
+}
+/*********************** CSS SLIDER ĐỐi tác ****************************/
+
+pre {
+    border:1px solid #000;
+    overflow-x:auto;
+    background: #222;
+    color: #fff;
+    text-shadow: none;
+}
+
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+div .doitac-bor h4{
+    display: inline;
+    border-bottom: 2px solid #CCC;
+    padding-bottom: 5px;
+}
+div .doitac-content{
+    height: 220px;
+    margin-top: 10px;
+    border-bottom: 1px solid #CCC;
+}
+div .doitac-content  > p{
+    font-weight: bold;
+    color: #333333;
+    padding-left: 0px!important;
+    padding-bottom: 10px;
+}
+div .doitac-content img{
+    float: left;
+    padding-right: 10px;
+    display: inline;
+}
+div .doi-ta-ri{
+    color: #333333;
+    text-align: justify;
+}
+div .doi-ta-ri a{
+    position: relative;
+    top: 20px;
+    right: -330px;
+}
+.doitac-all > div:nth-child(2){
+    margin-top: 30px;
+}
+/********************************* CSS 2 BÊN THANH TRƯỢT *******************************/
+.banner{
+    position: absolute;
+    top: 50px;
+    width: 130px;
+    height: 480px;
+    box-shadow: 0px 0px 15px #666;
+    z-index: 0;
+}
+#banner-left{
+    left: 0px;
+}
+#banner-right{
+    right: 0px;
+}
+/******************************* CSS PHẦN TUYỂN DỤNG *********************************/
+#all-tuyendung{
+    width: 720px;
+    height: auto;
+    margin: 0px auto;
+}
+#all-tuyendung .td-top{
+    width: 720px;
+    height: 30px;
+    border-bottom: 1px solid #CCC;
+}
+#all-tuyendung .td-top h5{
+    color: brown;
+}
+#all-tuyendung .td-content{
+    width: 720px;
+    height: auto;
+    margin-top: 30px;
+}
+#all-tuyendung .td-content a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+#all-tuyendung .td-content a:hover{
+    text-decoration: underline;
+}
+#all-tuyendung .td-content img{
+    float: left;
+    padding-right: 10px;
+}
+#all-tuyendung .td-content p{
+    font-size: 14px;
+    color: #222;
+    font-weight: 600;
+}
